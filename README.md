@@ -19,7 +19,7 @@ Designed as a beginner-friendly project with professional structure and best pra
 
 ## 📸 Preview
 
-![TaskFlow Screenshot](./assets/screenshot.png)
+![https://1drv.ms/i/c/fc7b36dbd8d51e3c/IQA6JqoZgHwVS6lq1TTQMLjqAWHCRlSGTUOanbdo8jb0MwA?e=cph2ze](./assets/screenshot.png)
 
 ---
 
