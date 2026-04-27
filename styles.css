@@ -1,0 +1,104 @@
+/* Fondo general */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Tarjeta principal */
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input y botón */
+.input-section {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: #f1f1f1;
+    transition: 0.3s;
+}
+
+input:focus {
+    background: #e0e0e0;
+}
+
+/* Botón agregar */
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5a67d8;
+    transform: scale(1.05);
+}
+
+/* Lista */
+ul {
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Tareas */
+li {
+    list-style: none;
+    background: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s;
+}
+
+/* Hover en tareas */
+li:hover {
+    transform: translateX(5px);
+    background: #f1f1f1;
+}
+
+/* Tarea completada */
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.7;
+}
+
+/* Botón eliminar */
+li button {
+    background: #ff6b6b;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+li button:hover {
+    background: #e63946;
+}
